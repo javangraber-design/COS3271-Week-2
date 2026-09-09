@@ -7,7 +7,7 @@ import java.util.Scanner;
 public class MyProject {
 	static Scanner userinput = new Scanner(System.in);
 	public static void main(String[] args) {
-		//Create the strings
+		//Create the variables
 		String firstName;
 		String lastName;
 		int age;
@@ -24,9 +24,9 @@ public class MyProject {
 		sleepHours = userinput.nextDouble();
 		
 		
-		//Encourage the user
+		//Print the info
 		System.out.println("\n");
-		System.out.println("Here is the information you typed organized in a neat fashion: \n");
+		System.out.println("Here is the information you typed organized in a neat fashion:\n");
 		System.out.print("\tFirst name: " + firstName + "\n");
 		System.out.print("\tLast name: " + lastName + "\n");
 		System.out.print("\tAge: " + age + "\n");
