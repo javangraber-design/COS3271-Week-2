@@ -11,6 +11,7 @@ public class MyProject {
 		String firstName;
 		String middleName;
 		String lastName;
+		
 		//Ask for user input
 		System.out.print("Please enter your first name -->");
 		firstName = userinput.nextLine();
@@ -18,9 +19,11 @@ public class MyProject {
 		middleName = userinput.nextLine();
 		System.out.print("Please enter your last name -->");
 		lastName = userinput.nextLine();
+		
 		//Create some Unicode characters
 		char amazedFace = '\u00D6';
 		char crossSymbol = '\u01c2';
+		
 		//Encourage the user
 		System.out.println("\n");
 		System.out.println("\tRemember, " + firstName + " " + middleName + " " + lastName + ",\n");
